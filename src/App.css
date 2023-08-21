@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgb(141, 175, 141);
+}
+
+h1{
+  padding-top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+
+.container{
+  text-align: center;
+}
+
+button{
+  background-color: rgb(41, 127, 41);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 30px;
+  /* background: rgb(17 166 131); */
+  color: rgb(255 255 255);
+  font-size: 18px;
+  letter-spacing: 1px;
+  /* margin: auto; */
+  /* display: flex; */
+  position: relative;
+  /* margin-top: -80px; */
+  cursor: pointer;
+}
+
+button:focus,
+button:hover {
+  background: rgb(58, 186, 35);
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.content{
+  /* padding: 18px 18px 120px 18px; */
+  padding-bottom: 300px;
+}
